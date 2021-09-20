@@ -323,14 +323,10 @@ section {
         font-size: 1rem;
     }
 
-    .about__data{
-        padding: 0;
-        margin-left: var(--mgb-1);
-    }
-
+    .about__data,
     .areas__data{
-        padding: 0;
-        margin-left: var(--mgb-1);
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .work__together{
@@ -352,6 +348,11 @@ section {
         margin-top: var(--mgb-5);
         text-align: center;
         color: var(--text-color);
+    }
+
+    .about__image,
+    .area__image{
+        display: none;
     }
 }
 
