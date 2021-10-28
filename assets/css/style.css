@@ -265,6 +265,13 @@ section {
     grid-template-columns: repeat(2, 1fr);
 }
 
+.card{
+    transition: all .4s ease-in-out;
+}
+.card:hover{
+    transform: translateY(-1rem);
+}
+
 /*==== Contact ====*/
 .bt__container{
     text-align: center;
