@@ -220,7 +220,7 @@ section {
 .about__image{
     width: 25rem;
     position: relative;
-    top: -23.6rem;
+    top: -24.5rem;
     right: -18rem;
 }
 
@@ -246,8 +246,23 @@ section {
 .area__image{
     width: 25rem;
     position: relative;
-    top: -16.5rem;
+    top: -22rem;
     right: -18rem;
+}
+
+/*==== Projects session ====*/
+.card{
+    border:none;
+    border-radius: 50%;
+}
+
+.card-body{
+    background-color: #161616;
+}
+
+.projects-list{
+    row-gap: 4rem;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 /*==== Contact ====*/
@@ -423,36 +438,17 @@ section {
     .areas__data{
         font-size: var(--h2-f-size);
         width: 50%;
-        right: 10rem;
+        right: 11rem;
         line-height: 3rem;
     }
 
     .about__image{
-        top: -26.5rem;
+        top: -30rem;
         left: 25rem;
     }
 
     .area__image{
-        top: -20.5rem;
+        top: -27rem;
         left: 25rem;
-    }
-}
-
-@media screen and (min-width: 1100px){
-    .about__image{
-        top: -20.5rem;
-        left: 40rem;
-    }
-
-    .area__image{
-        top: -14.5rem;
-        left: 40rem;
-    }
-
-    .about__data,
-    .about__image,
-    .areas__data,
-    .area__image{
-        margin-left: var(--mgb-18);
     }
 }
