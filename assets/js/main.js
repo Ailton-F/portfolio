@@ -54,7 +54,7 @@ sr.reveal(`.areas__title`, {delay: 100, origin: 'top'})
 sr.reveal(`.areas__data`, {delay: 100, origin: 'left'})
 sr.reveal(`.area__image`, {delay: 100, origin: 'right'})
 
-sr.reveal(`.projects__title`, {delay: 100, origin: 'right'})
+sr.reveal(`.projects__title`, {delay: 100, origin: 'top'})
 sr.reveal(`.card_r_r`, {delay: 100, origin: 'right'})
 sr.reveal(`.card_r_l`, {delay: 100, origin: 'left'})
 
