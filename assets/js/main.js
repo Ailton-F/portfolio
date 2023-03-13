@@ -36,27 +36,3 @@ function scrollHeader(){
     if(this.scrollY >= 100) header.classList.add('scroll-header'); else header.classList.remove('scroll-header')
 }
 window.addEventListener('scroll', scrollHeader)
-
-/*==================== SCROLL REVEAL ====================*/
-const sr = ScrollReveal({
-    distance: '60px',
-    duration: 2500,
-    delay: 400,
-    reset: true,
-})
-
-sr.reveal(`.a__title, .a__subtitle`, {delay: 100})
-sr.reveal(`.about__title`, {delay: 100, origin: 'top'})
-sr.reveal(`.about__data`, {delay: 100, origin: 'left'})
-sr.reveal(`.about__image`, {delay: 100, origin: 'right'})
-
-sr.reveal(`.areas__title`, {delay: 100, origin: 'top'})
-sr.reveal(`.areas__data`, {delay: 100, origin: 'left'})
-sr.reveal(`.area__image`, {delay: 100, origin: 'right'})
-
-sr.reveal(`.projects__title`, {delay: 100, origin: 'top'})
-sr.reveal(`.card_r_r`, {delay: 100, origin: 'right'})
-sr.reveal(`.card_r_l`, {delay: 100, origin: 'left'})
-
-
-sr.reveal(`.bt__container`, {delay: 100})
