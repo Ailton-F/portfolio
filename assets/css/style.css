@@ -377,6 +377,18 @@ section {
 
 /*MEDIA FOR SMALL DEVICES*/
 @media screen and (max-width: 420px) {
+
+  .languages,
+  .frameworks{
+    flex: 0 0 auto !important;
+    width: 100% !important;
+  }
+
+  .about__data__div{
+    flex: 0 0 auto !important;
+    width: 100% !important;
+  }
+
   .nav__link {
     font-size: 2rem;
   }
