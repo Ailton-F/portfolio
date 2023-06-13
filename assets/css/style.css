@@ -13,5 +13,14 @@
 
 .icon:hover{
     transform: translateY(-10px);
-    color: red;
+}
+
+
+.projects-container{
+    background: rgb(129,8,184);
+    background-image: linear-gradient(6deg, rgba(129,8,184,1) 0%, rgba(21,231,112,1) 100%);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
